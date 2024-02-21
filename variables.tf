@@ -7,7 +7,7 @@ variable "region" {
 variable "app_name" {
   description = "Goldenline pyspark application"
   type        = string
-  default     = "pyspark-app"
+  default     = "pyspark"
 }
 
 variable "bucket_prefix" {

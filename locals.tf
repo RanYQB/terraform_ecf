@@ -1,6 +1,6 @@
 
 locals {
-  name   = "pyspark-cluster"
+  name   = "pyspark"
   region = "eu-west-3"
 
   vpc_cidr = "10.123.0.0/16"

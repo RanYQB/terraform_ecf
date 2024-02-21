@@ -54,7 +54,7 @@ module "eks" {
 
   eks_managed_node_groups = {
     pyspark_cluster = {
-      name            = "pyspark-eks-mng"
+      name            = "pyspark-eks"
       use_name_prefix = true
       min_size     = 1
       max_size     = 2
